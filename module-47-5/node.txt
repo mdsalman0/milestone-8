@@ -1,0 +1,31 @@
+*module-47-5*
+47_5-1 মডিউল ভূমিকা ES6 মডিউল সহজ আমদানি, রপ্তানি।
+1."./" না থাকে মানে node modules থেকে import হচ্ছে.
+
+
+47_5-2 ES6 মডিউল, আমদানি ডিফল্ট, আপেক্ষিক পথ।
+1.ekadik function export korte hole eivabe export likhbo.
+ud: function add(n,m){//code}export{add}
+
+
+47_5-3 জাল ডেটা, json জেনারেটর, অনলাইন এপিআই তৈরি করুন এবং লোড করুন।
+1.json generator (google) api data ache.
+2.beeceptor.com (google) eikhane data url kora jay.
+
+
+47_5-4 কিভাবে প্যারামিটার সহ ইভেন্ট হ্যান্ডলার তৈরি করবেন।
+1.kono ekta eventHanlar ke call korte hole sora sori eventhandler ke call na kore arroyfunction baniye setar bitor eventhandler ke call kore pramitar add kore dile hove.
+ud: <button onClick={()=>addToCard(id)}>Purchatec</button>
+
+
+47_5-5 শুধুমাত্র একটি আইটেম ডেটা সঞ্চয় করতে স্থানীয় স্টোরেজের ভূমিকা।
+1.
+
+47_5-6 and 47_5-7
+1.How to use localStorage in Javascript and React (google)
+1.setItem(), দিয়ে আমরা একটি আইটেম স্থানীয় স্টোরেজ সেট করতে পারি যা আমরা পৃষ্ঠাটি পুনরায় লোড করার পরেও বজায় থাকবে।
+2.ডেটা সেট করার পরে, আমরা localStorage.getItem("ডেটা") দিয়ে ডেটা অ্যাক্সেস করতে পারি।
+3.localStorage.removeItem('data') দিয়ে আমরা localStorage আইটেমটি সরাতে পারি।
+
+
+

@@ -1,0 +1,60 @@
+*module-47*
+47-1 মডিউল ভূমিকা হুডের নিচে প্রতিক্রিয়া অ্যাপ তৈরি করুন।
+1.what is npm হল বিশ্বের বৃহত্তম সফটওয়্যার রেজিস্ট্রি। রেজিস্ট্রিতে 800,000টির বেশি কোড প্যাকেজ রয়েছে। ওপেন সোর্স ডেভেলপাররা সফটওয়্যার শেয়ার করতে npm ব্যবহার করে।
+2.what is npx: এনপিএক্স মানে নোড প্যাকেজ এক্সিকিউট এবং এটি এনপিএমের সাথে আসে, যখন আপনি 5.2.0 সংস্করণের উপরে এনপিএম ইনস্টল করেন তখন স্বয়ংক্রিয়ভাবে এনপিএক্স ইনস্টল হয়ে যাবে। এটি একটি এনপিএম প্যাকেজ রানার যা সেই প্যাকেজটি ইনস্টল না করেও এনপিএম রেজিস্ট্রি থেকে যে কোনো প্যাকেজ চালাতে পারে।
+3.what is npx create-react-app=প্রথম লাইনে npx একটি টাইপো নয় — এটি একটি প্যাকেজ রানার টুল যা npm 5.2+ এর সাথে আসে। রিঅ্যাক্ট অ্যাপ তৈরি করুন ব্যাকএন্ড লজিক বা ডাটাবেস পরিচালনা করে না; এটি কেবল একটি ফ্রন্টএন্ড বিল্ড পাইপলাইন তৈরি করে, তাই আপনি এটিকে আপনার ইচ্ছামত ব্যাকএন্ডের সাথে ব্যবহার করতে পারেন।
+
+
+47-2 JSX কি, প্রতিক্রিয়া উপাদান, ব্যাবেল ট্রান্সপিলার।
+1.jsx-in-depth (google search)
+2.jsx = javascript xml
+3.jsxএর সাহায্যে html কোড গুলো জাভাস্ক্রিপ্ট এর মধ্যে সহজেই লিখা যায়.আবার,htmlকোড এর মধ্যেও জাভাস্ক্রিপ্ট এর expression গুলো ব্যবহার করা যায়{} এর সাহায্যে.
+4.markup language & logic কে আলাদা file এ না রেখে একই সাথে পয়জনমত একই file এ রাখা যায়.এর জন্য react componentবেবহার  করা হয়.
+5.jsx সুবিধা :
+1= JSX কোডের বড় অংশ লেখার সময় আমাদের কোডকে সহজ এবং মার্জিত রাখতে সাহায্য করে।
+2 =রিঅ্যাক্ট ডক্স অনুসারে, বেশিরভাগ লোকেরা জাভাস্ক্রিপ্ট কোডের ভিতরে UI এর সাথে কাজ করার সময় এটিকে ভিজ্যুয়াল সহায়তা হিসাবে সহায়ক বলে মনে করে।
+3=JSX আরও কার্যকর ত্রুটি এবং সতর্কতা বার্তা দেখানোর জন্য প্রতিক্রিয়াকে অনুমতি দেয়।
+6.
+
+
+47-3 কিভাবে উপাদান এবং প্রপ কাজ করে, একমুখী ডেটা প্রবাহ।
+1.components and props (google)
+2.similar in loop difference in dada jonno component beboha kori.
+
+
+47-5
+1.props vs state (intervewu que)
+* props are read-only * state changes can be asynchronous
+* props can not be modified * state can be modified using this.setSteps
+2.what is Hooks = 
+Hooks React 16.8-এ একটি নতুন সংযোজন। তারা আপনাকে একটি ক্লাস না লিখে রাষ্ট্র এবং অন্যান্য প্রতিক্রিয়া বৈশিষ্ট্য ব্যবহার করতে দেয়।
+3.
+
+
+47-6 প্রতিক্রিয়া কি, কখন এটি ব্যবহার করতে হবে, প্রতিক্রিয়া বনাম কৌণিক বনাম ভিউ।
+1.
+
+
+47-7 কিভাবে প্রতিক্রিয়া কাজ করে, রেন্ডার, ভার্চুয়াল ডোম, ডিফ অ্যালগরিদম, ফাইবার
+1.how react works (google)
+2.react diff algorithm (google) img dekhte hobe.
+3.react fiber architecture (google)
+4.what is react virtual dom (google)
+
+
+47-8 ক্লাস কম্পোনেন্ট, কম্পোনেন্ট লাইফসাইকেল এবং রিরেন্ডার প্রতিক্রিয়া।
+1.react component lifecycle (google) img dekhte hobe.
+1.react e প্রতিটা component ৩ টি stage অতিক্রম করে.
+1.Mounting 2.Update 3.Unmounting
+*Mounting - initial stage. যখন কোনো কম্পোনেন্ট DOM এ প্রবেশ করে তখন এই stage শুরু হয়. এই stage এ ৪টি  method পর্যায়ক্রমে ঘটে. * constructor() * getDerivedStateFromProps() * render() * componentDidMount()
+*Updating - যখন কোনো props  বা স্টেট এর কোনো পরিবতন component এর কোনো পরিবতন ঘটায়, তখন component টি এই স্টেজ পত্র প্রবেশ করে. এই stage  এ ৫টি method পর্যায়ক্রমে ঘটে. * getDerivedStateFromProps() * shouldcomponentUpdate() * render() * getSnapshotBeforeUpdate() *componentDidUpdate()
+*UnMounting - যখন  Don থেকে কোনো  component কে সরানো প্রয়োজন হয়, তখন  component টি এই  stage এ প্রবেশ করে. এই  stage এ ১টি  method সপন্ন হয়: * componentWillMount()
+
+
+47_5-8 মডিউল সংক্ষিপ্তসার এবং অ্যারে কমাতে সহজ ভূমিকা.
+1.javascript array reduce (google)
+gmail: jhankar.mahbub1@gmail.com
+
+
+
+

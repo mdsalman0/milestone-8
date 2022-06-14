@@ -1,0 +1,10 @@
+48-1 Module Introduction, site resources, figma
+1.figma.com er moddhe kivabe ui disign korte hoy.
+
+48-2 Header Component, logo position, set nav menu/হেডার কম্পোনেন্ট, লোগো অবস্থান, NAV মেনু সেট করুন
+1.
+
+
+
+
+
